@@ -21,8 +21,8 @@
 //Using environment variables for DB connection information
 
 $connectstr_dbhost = 'martin-mysql-db.mysql.database.azure.com';
-$connectstr_dbname = 'martin_test';
-$connectstr_dbusername = 'martin_admin@martin-mysql-db.mysql.database.azure.com';
+$connectstr_dbname = 'martin';
+$connectstr_dbusername = 'martin@martin-mysql-db.mysql.database.azure.com';
 $connectstr_dbpassword = 'RDzA13vapn';
 
 foreach ($_SERVER as $key => $value) {
