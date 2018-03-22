@@ -23,13 +23,13 @@
 define('DB_NAME', 'martin');
 
 /** MySQL database username */
-define('DB_USER', 'martin@martin-mysql-db.mysql.database.azure.com');
+define('DB_USER', 'martin@seecure-mysql-db.mysql.database.azure.com');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'x}3LX=Dv9ni(UMw');
+define('DB_PASSWORD', '=271}gc@C_HTId]');
 
 /** MySQL hostname */
-define('DB_HOST', 'martin-mysql-db.mysql.database.azure.com');
+define('DB_HOST', 'seecure-mysql-db.mysql.database.azure.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
