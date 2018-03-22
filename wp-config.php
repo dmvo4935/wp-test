@@ -23,7 +23,7 @@
 $connectstr_dbhost = 'martin-mysql-db.mysql.database.azure.com';
 $connectstr_dbname = 'martin';
 $connectstr_dbusername = 'martin@martin-mysql-db.mysql.database.azure.com';
-$connectstr_dbpassword = 'RDzA13vapn';
+$connectstr_dbpassword = 'x}3LX=Dv9ni(UMw';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {
