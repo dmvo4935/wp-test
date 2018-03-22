@@ -23,7 +23,7 @@
 define('DB_NAME', 'martin');
 
 /** MySQL database username */
-define('DB_USER', 'martin@seecure-mysql-db.mysql.database.azure.com');
+define('DB_USER', 'martin@seecure-mysql-db');
 
 /** MySQL database password */
 define('DB_PASSWORD', '=271}gc@C_HTId]');
