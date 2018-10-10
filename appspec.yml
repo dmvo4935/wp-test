@@ -3,10 +3,21 @@ os: linux
 files:
   - source: ./
     destination: /var/www/html/
+    
 permissions:
-  
+  - object: /var/www/html
+    pattern: "**"
+    owner: apache
+    group: apache
+    mode: 644
+    type:
+      - file  
 hooks:
+  BeforeInstall:
+   - location: ./stop_httpd.sh
+     timeout: 600
+     runas: root 
   AfterInstall:
-   - location: ./restart_httpd.sh
+   - location: ./start_httpd.sh
      timeout: 600
      runas: root 
