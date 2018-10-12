@@ -13,7 +13,7 @@ permissions:
     type:
       - file  
 hooks:
-  BeforeInstall:
+  BeforeBlockTraffic:
    - location: ./stop_httpd.sh
      timeout: 600
      runas: root 
