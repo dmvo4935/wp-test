@@ -3,7 +3,8 @@ os: linux
 files:
   - source: ./
     destination: /var/www/html/
-    
+  - source: /tmp/wp_config.php
+    destination: /var/www/html/wp_config.php
 permissions:
   - object: /var/www/html
     pattern: "**"
