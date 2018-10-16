@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -f /tmp/wp_config.php ]
+if [ -f /tmp/wp-config.php ]
 then
-cp /tmp/wp_config.php /var/www/html/wp_config.php
-chown apache:apache /var/www/html/wp_config.php
+cp /tmp/wp-config.php /var/www/html/wp-config.php
+chown apache:apache /var/www/html/wp-config.php
 fi 
 
 service httpd start
